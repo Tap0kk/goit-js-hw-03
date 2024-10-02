@@ -1,4 +1,4 @@
-`use strict`
+"use strict"
 function slugify(title) {
     const titleLowerCase = title.toLowerCase();
     const slug = titleLowerCase.replaceAll(" ", "-");
